@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Casa Libre</title>
+	<meta name="google-site-verification" content="JwXC2PNStx70XC_iEItIynLe52ZAjFZKPLQjZZA0oTo" />
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/mobile.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="./js/main.js"></script>
+</head>
+<body>
+	<nav>
+		<div>
+			<a style="float:left" href=".">Casa Libre</a>
+			<a href="#about">About</a>
+			<a href="#photoGallery">Photos</a>
+<!-- 			<a href="#contact">Contact</a>
+ -->		</div>
+	</nav>
+	<main>
+	<img class="leadImage" src="./images/DR6.JPG" />
+	<div class="introDiv">Bienvenida!<br>Bonjour!<br>Welcome!<br>Willkommen!</div>
+	<div id="about">	
+	We're a cozy, family owned bed and breakfast nestled away in Punta Rucia, Estero Hondo, Dominican Republic. Located close to a gorgeous beach, we are multi-lingual (English-French-Spanish-German) and can accommodate most any need. 
+	<br><br>
+	Our nightly rate is &#36; 1,200.00 (DOP) per Cabana, which includes a complimentary homemade breakfast.
+	<br>
+	Dinner can be provided for &#36; 450.00 (DOP) per person, all we ask is advanced notice.
+	<br><br>
+	Contact by phone at: <span style='padding:0px 5px;'>809-693-5010</span><span style='padding:0px 5px;'>849-763-5787</span><span style='padding:0px 5px;'>809-212-8295</span><br>
+	or by email at <a href="mailto:casitamariposa@hotmail.com?subject=Hello!">CasitaMariposa@hotmail.com</a>
+	</div>
+	<div id="photoGallery">
+		<figure onclick="renderPopUp(this)">
+			<img src="./images/DR-Storm.JPG" />
+		</figure>
+		<figure onclick="renderPopUp(this)">
+		<img src="./images/DR5.JPG" />
+		</figure>
+		<figure onclick="renderPopUp(this)">
+		<img src="./images/DR6.JPG" />
+		</figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/DSC03857.JPG"  /></figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/DSC03858.JPG" /></figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/DSC03861.JPG" /></figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/DSC03870.JPG" /></figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/DSC03913.JPG" /></figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/DSC04032.JPG" /></figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/DSC04033.JPG" /></figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/IMG_0418.JPG" /></figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/IMG_0419.JPG" /></figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/IMG_0420.JPG" /></figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/P1010904.JPG" /></figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/P1010918.JPG" /></figure>
+		<figure onclick="renderPopUp(this)"><img src="./images/P1010919.JPG" /></figure>
+		
+	</div>
+	</main>
+	<div class="modalOverlay" onclick="closePopUp()">
+		<div class="modalContent" onclick="closePopUp()">
+			<img src='' />
+		</div>
+	</div>
+</body>
+</html>
